@@ -19,7 +19,7 @@ variable "appinsight" {
 type        = "string"
 description = "Enter the Application insight name"
 default = "mmech_dev_ece"
-
+}
 
 variable "storageName" {
   type        = string
