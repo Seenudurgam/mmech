@@ -27,12 +27,6 @@ variable "resource_group_location" {
   description = "The default Azure region for the resource provisioning"
   default = "West Europe"
 }
-variable "appinsight" {
-type        = "string"
-description = "Enter the Application insight name"
-default = "mmech_dev_ece"
-}
-
 variable "storageName" {
   type        = string
   description = "Enter the Storage Account name"
